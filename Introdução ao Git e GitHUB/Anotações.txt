@@ -3,5 +3,11 @@ O Git Bash é um terminal extendido para otimizar o uso do Git.
 
 Para subir os arquivos através do git 
 
-git add .
-git add -a
+1- Adicione os arquivos com o comando:
+git add . ou git add -a
+
+2 - Commit
+git commit -m "texto explicativo"
+
+3 - Transmitir
+git push origin main

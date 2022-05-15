@@ -13,18 +13,20 @@ public class Ex3_MaiorMedia {
         int numero;
         int contador = 0;
         int soma = 0;
-        double media=0;
+        int maior = 0;
 
         do {
             System.out.println("Digite um número: ");
             numero = scan.nextInt();
+                if (numero >maior)maior = numero;
 
             contador = contador +1;
             soma = soma + numero;
         }while(contador < 5);
-        media = soma/5;
+
         System.out.println("A soma dos números foi " + soma);
-        System.out.println("A média dos números foi " + media);
+        System.out.println("A média dos números foi " + (soma/5));
+        System.out.println("O maior número digitado foi " + maior);
 
 
     }

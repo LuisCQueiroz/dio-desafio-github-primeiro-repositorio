@@ -6,6 +6,7 @@ function increment(){
     currentNumberWrapper.innerHTML = currentNumber;
 if (currentNumber >= 0) {
         document.getElementById("currentNumber").style.color = "black";
+        document.getElementById("currentNumber").bold();
     }
 }
 
